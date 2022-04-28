@@ -1,0 +1,72 @@
+/* =============
+  RESET
+ ============= */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+/* =============
+  TYPOGRAPHY
+ ============= */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* =============
+  GLOBAL
+ ============= */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask3403%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient3404)'%3e%3c/rect%3e%3cpath d='M1464 560L0 560 L0 340.16Q-0.74 267.42%2c 72 266.68Q134.52 209.2%2c 192 271.72Q245.03 252.75%2c 264 305.79Q322.52 292.31%2c 336 350.83Q363.81 306.63%2c 408 334.44Q428.3 282.74%2c 480 303.04Q529.34 232.38%2c 600 281.71Q655.08 264.79%2c 672 319.87Q702.15 278.02%2c 744 308.18Q794.76 238.94%2c 864 289.7Q886.79 240.49%2c 936 263.28Q978.35 233.63%2c 1008 275.98Q1096.75 244.73%2c 1128 333.48Q1143.81 277.29%2c 1200 293.1Q1248.97 270.07%2c 1272 319.04Q1341.79 268.83%2c 1392 338.61Q1398.89 273.5%2c 1464 280.4z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 429.58Q52 361.58%2c 120 413.59Q135.55 357.14%2c 192 372.69Q217.4 326.09%2c 264 351.49Q345.54 313.03%2c 384 394.58Q410.92 349.5%2c 456 376.41Q540.1 340.51%2c 576 424.62Q606.58 383.2%2c 648 413.78Q720.21 365.99%2c 768 438.2Q798.63 348.82%2c 888 379.45Q938.84 358.29%2c 960 409.14Q965.81 342.95%2c 1032 348.76Q1073.11 317.87%2c 1104 358.98Q1199.74 334.72%2c 1224 430.45Q1271.7 358.15%2c 1344 405.85Q1373.38 315.23%2c 1464 344.61z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 448.12Q29.02 405.14%2c 72 434.16Q100.49 390.65%2c 144 419.15Q223.24 378.39%2c 264 457.63Q314.17 435.8%2c 336 485.97Q376.8 406.77%2c 456 447.57Q508.54 380.11%2c 576 432.65Q650.8 387.45%2c 696 462.25Q747.26 393.51%2c 816 444.78Q865.08 373.86%2c 936 422.93Q1018.69 385.63%2c 1056 468.32Q1097.06 437.38%2c 1128 478.44Q1160.28 390.72%2c 1248 423Q1297.22 400.23%2c 1320 449.45Q1376.29 433.74%2c 1392 490.02Q1416.88 442.9%2c 1464 467.79z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 495.33Q77.9 453.23%2c 120 531.12Q170.03 461.15%2c 240 511.18Q326.52 477.7%2c 360 564.22Q377.9 510.13%2c 432 528.03Q455.72 479.75%2c 504 503.46Q583.7 463.16%2c 624 542.87Q646.9 493.77%2c 696 516.67Q783.97 484.64%2c 816 572.61Q857.02 541.63%2c 888 582.65Q904.34 526.99%2c 960 543.33Q1005.85 517.18%2c 1032 563.04Q1103.3 514.34%2c 1152 585.63Q1184.71 498.34%2c 1272 531.04Q1316.4 503.44%2c 1344 547.85Q1356.11 487.96%2c 1416 500.07Q1457.55 469.62%2c 1488 511.16z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask3403'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient3404'%3e%3cstop stop-color='rgba(20%2c 100%2c 128%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(39%2c 100%2c 172%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+p {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* =============
+  COMPONENTS
+ ============= */
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 450px;
+  height: 200px;
+  padding: 40px;
+  backdrop-filter: blur(8px) saturate(150%);
+  background-color: rgba(17, 25, 40, 0.65);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.shadow {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#price {
+  margin-top: 20px;
+  font-size: 26px;
+}
